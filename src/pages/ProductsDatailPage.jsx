@@ -75,7 +75,7 @@ export default function ProductDatailPage() {
 
       <div className="flex flex-row w-full justify-around gap-12">
         <div className="w-[50%] flex justify-center bg-white rounded-lg">
-          {product.reviews.map((prod, idx) => {
+          {/* {product.reviews.map((prod, idx) => {
             return (
               <Reviews
                 key={`review-${idx}`}
@@ -84,7 +84,7 @@ export default function ProductDatailPage() {
                 rating={prod.rating}
               />
             );
-          })}
+          })} */}
         </div>
         <div className="w-[50%] flex flex-col gap-4"></div>
       </div>
